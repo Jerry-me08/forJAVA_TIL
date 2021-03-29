@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Practice02 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the Fahrenheit degree: ");
+		int fahrenheit = input.nextInt();
+		
+		double celsius = ((double)5 / 9) * (fahrenheit - 32);
+		System.out.println("The corresponding degree of celsius is " + celsius);
+		
+		input.close();
+	}
+
+}
