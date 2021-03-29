@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Practice03 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter the inch value: ");
+		double inch = input.nextDouble();
+		
+		int centimeter = (int)(2.54 * inch);
+		System.out.println("The corresponding centimeter value is " + centimeter);
+		
+		input.close();
+	}
+
+}
